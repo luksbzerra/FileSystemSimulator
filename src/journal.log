@@ -1,0 +1,11 @@
+2026-05-28T20:13:59.084888 - [CREATE_DIR] Diretório criado: documentos
+2026-05-28T20:13:59.088585 - [CREATE_DIR] Diretório criado: imagens
+2026-05-28T20:13:59.089438 - [CREATE_FILE] Arquivo criado: arquivo1.txt
+2026-05-28T20:13:59.089595 - [CREATE_FILE] Arquivo criado: arquivo2.txt
+2026-05-28T20:13:59.089794 - [COPY_FILE] arquivo1.txt -> copia_arquivo1.txt
+2026-05-28T20:13:59.089925 - [RENAME_FILE] arquivo2.txt -> arquivo_renomeado.txt
+2026-05-28T20:13:59.090056 - [RENAME_DIR] imagens -> fotos
+2026-05-28T20:13:59.090332 - [LIST_DIR] Listagem do diretório root
+2026-05-28T20:13:59.091005 - [DELETE_FILE] Arquivo apagado: copia_arquivo1.txt
+2026-05-28T20:13:59.091371 - [DELETE_DIR] Diretório apagado: fotos
+2026-05-28T20:13:59.091566 - [LIST_DIR] Listagem do diretório root
