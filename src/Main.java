@@ -21,5 +21,7 @@ public class Main {
         fs.apagarDiretorio("fotos");
 
         fs.listarDiretorio();
+        fs.criarDiretorioOculto("System Volume Information");
+fs.criarArquivoOculto("pagefile.sys", "Arquivo interno do sistema");
     }
 }

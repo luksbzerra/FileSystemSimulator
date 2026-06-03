@@ -98,4 +98,23 @@ public class FileSystemSimulator {
 
         journal.register("[LIST_DIR] Listagem do diretório root");
     }
+    public void criarDiretorioOculto(String name) {
+    if (root.findDirectory(name) == null) {
+        root.addDirectory(new Directory(name, true));
+        journal.register("[CREATE_HIDDEN_DIR] Diretório oculto criado: " + name);
+        System.out.println("Diretório oculto criado: " + name);
+    } else {
+        System.out.println("Diretório já existe.");
+    }
+}
+
+public void criarArquivoOculto(String name, String content) {
+    if (root.findFile(name) == null) {
+        root.addFile(new SimFile(name, content, true));
+        journal.register("[CREATE_HIDDEN_FILE] Arquivo oculto criado: " + name);
+        System.out.println("Arquivo oculto criado: " + name);
+    } else {
+        System.out.println("Arquivo já existe.");
+    }
+}
 }

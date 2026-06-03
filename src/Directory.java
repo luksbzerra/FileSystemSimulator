@@ -3,17 +3,30 @@ import java.util.List;
 
 public class Directory {
     private String name;
+    private boolean hidden;
     private List<SimFile> files;
     private List<Directory> directories;
 
     public Directory(String name) {
         this.name = name;
+        this.hidden = false;
+        this.files = new ArrayList<>();
+        this.directories = new ArrayList<>();
+    }
+
+    public Directory(String name, boolean hidden) {
+        this.name = name;
+        this.hidden = hidden;
         this.files = new ArrayList<>();
         this.directories = new ArrayList<>();
     }
 
     public String getName() {
         return name;
+    }
+
+    public boolean isHidden() {
+        return hidden;
     }
 
     public void rename(String newName) {
