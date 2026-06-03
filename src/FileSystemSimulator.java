@@ -84,20 +84,24 @@ public class FileSystemSimulator {
     }
 
     public void listarDiretorio() {
-        System.out.println("\nConteúdo do diretório root:");
+    System.out.println("\nConteúdo visível do diretório root:");
 
-        System.out.println("Diretórios:");
-        for (Directory directory : root.getDirectories()) {
+    System.out.println("Diretórios:");
+    for (Directory directory : root.getDirectories()) {
+        if (!directory.isHidden()) {
             System.out.println("- " + directory.getName());
         }
+    }
 
-        System.out.println("Arquivos:");
-        for (SimFile file : root.getFiles()) {
+    System.out.println("Arquivos:");
+    for (SimFile file : root.getFiles()) {
+        if (!file.isHidden()) {
             System.out.println("- " + file.getName());
         }
-
-        journal.register("[LIST_DIR] Listagem do diretório root");
     }
+
+    journal.register("[LIST_DIR] Listagem visível do diretório root");
+}
     public void criarDiretorioOculto(String name) {
     if (root.findDirectory(name) == null) {
         root.addDirectory(new Directory(name, true));

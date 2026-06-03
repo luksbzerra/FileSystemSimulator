@@ -9,3 +9,68 @@
 2026-05-28T20:14:16.607839 - [DELETE_FILE] Arquivo apagado: copia_arquivo1.txt
 2026-05-28T20:14:16.608075 - [DELETE_DIR] Diretório apagado: fotos
 2026-05-28T20:14:16.608210 - [LIST_DIR] Listagem do diretório root
+2026-06-03T10:13:00.266578 - [CREATE_DIR] Diretório criado: documentos
+2026-06-03T10:13:00.271157 - [CREATE_DIR] Diretório criado: imagens
+2026-06-03T10:13:00.271296 - [CREATE_HIDDEN_DIR] Diretório oculto criado: System Volume Information
+2026-06-03T10:13:00.271537 - [CREATE_HIDDEN_FILE] Arquivo oculto criado: pagefile.sys
+2026-06-03T10:13:00.271659 - [CREATE_FILE] Arquivo criado: arquivo1.txt
+2026-06-03T10:13:00.271747 - [CREATE_FILE] Arquivo criado: arquivo2.txt
+2026-06-03T10:13:00.271928 - [COPY_FILE] arquivo1.txt -> copia_arquivo1.txt
+2026-06-03T10:13:00.272060 - [RENAME_FILE] arquivo2.txt -> arquivo_renomeado.txt
+2026-06-03T10:13:00.272196 - [RENAME_DIR] imagens -> fotos
+2026-06-03T10:13:00.272385 - [LIST_DIR] Listagem do diretório root
+2026-06-03T10:13:00.272797 - [DELETE_FILE] Arquivo apagado: copia_arquivo1.txt
+2026-06-03T10:13:00.273013 - [DELETE_DIR] Diretório apagado: fotos
+2026-06-03T10:13:00.273150 - [LIST_DIR] Listagem do diretório root
+2026-06-03T10:13:55.603067 - [CREATE_DIR] Diretório criado: documentos
+2026-06-03T10:13:55.607964 - [CREATE_DIR] Diretório criado: imagens
+2026-06-03T10:13:55.608093 - [CREATE_HIDDEN_DIR] Diretório oculto criado: System Volume Information
+2026-06-03T10:13:55.608445 - [CREATE_HIDDEN_FILE] Arquivo oculto criado: pagefile.sys
+2026-06-03T10:13:55.608567 - [CREATE_FILE] Arquivo criado: arquivo1.txt
+2026-06-03T10:13:55.608665 - [CREATE_FILE] Arquivo criado: arquivo2.txt
+2026-06-03T10:13:55.608854 - [COPY_FILE] arquivo1.txt -> copia_arquivo1.txt
+2026-06-03T10:13:55.608983 - [RENAME_FILE] arquivo2.txt -> arquivo_renomeado.txt
+2026-06-03T10:13:55.609108 - [RENAME_DIR] imagens -> fotos
+2026-06-03T10:13:55.609291 - [LIST_DIR] Listagem do diretório root
+2026-06-03T10:13:55.609714 - [DELETE_FILE] Arquivo apagado: copia_arquivo1.txt
+2026-06-03T10:13:55.609940 - [DELETE_DIR] Diretório apagado: fotos
+2026-06-03T10:13:55.610080 - [LIST_DIR] Listagem do diretório root
+2026-06-03T10:14:35.545110 - [CREATE_DIR] Diretório criado: documentos
+2026-06-03T10:14:35.550180 - [CREATE_DIR] Diretório criado: imagens
+2026-06-03T10:14:35.550345 - [CREATE_HIDDEN_DIR] Diretório oculto criado: System Volume Information
+2026-06-03T10:14:35.551451 - [CREATE_HIDDEN_FILE] Arquivo oculto criado: pagefile.sys
+2026-06-03T10:14:35.551634 - [CREATE_FILE] Arquivo criado: arquivo1.txt
+2026-06-03T10:14:35.551807 - [CREATE_FILE] Arquivo criado: arquivo2.txt
+2026-06-03T10:14:35.552217 - [COPY_FILE] arquivo1.txt -> copia_arquivo1.txt
+2026-06-03T10:14:35.552420 - [RENAME_FILE] arquivo2.txt -> arquivo_renomeado.txt
+2026-06-03T10:14:35.552598 - [RENAME_DIR] imagens -> fotos
+2026-06-03T10:14:35.552878 - [LIST_DIR] Listagem do diretório root
+2026-06-03T10:14:35.553509 - [DELETE_FILE] Arquivo apagado: copia_arquivo1.txt
+2026-06-03T10:14:35.553853 - [DELETE_DIR] Diretório apagado: fotos
+2026-06-03T10:14:35.554056 - [LIST_DIR] Listagem do diretório root
+2026-06-03T10:15:18.245957 - [CREATE_DIR] Diretório criado: documentos
+2026-06-03T10:15:18.250699 - [CREATE_DIR] Diretório criado: imagens
+2026-06-03T10:15:18.250825 - [CREATE_HIDDEN_DIR] Diretório oculto criado: System Volume Information
+2026-06-03T10:15:18.251097 - [CREATE_HIDDEN_FILE] Arquivo oculto criado: pagefile.sys
+2026-06-03T10:15:18.251213 - [CREATE_FILE] Arquivo criado: arquivo1.txt
+2026-06-03T10:15:18.251317 - [CREATE_FILE] Arquivo criado: arquivo2.txt
+2026-06-03T10:15:18.251507 - [COPY_FILE] arquivo1.txt -> copia_arquivo1.txt
+2026-06-03T10:15:18.251638 - [RENAME_FILE] arquivo2.txt -> arquivo_renomeado.txt
+2026-06-03T10:15:18.251766 - [RENAME_DIR] imagens -> fotos
+2026-06-03T10:15:18.251943 - [LIST_DIR] Listagem do diretório root
+2026-06-03T10:15:18.252366 - [DELETE_FILE] Arquivo apagado: copia_arquivo1.txt
+2026-06-03T10:15:18.252670 - [DELETE_DIR] Diretório apagado: fotos
+2026-06-03T10:15:18.252838 - [LIST_DIR] Listagem do diretório root
+2026-06-03T10:16:18.248224 - [CREATE_DIR] Diretório criado: documentos
+2026-06-03T10:16:18.254113 - [CREATE_DIR] Diretório criado: imagens
+2026-06-03T10:16:18.254237 - [CREATE_HIDDEN_DIR] Diretório oculto criado: System Volume Information
+2026-06-03T10:16:18.254492 - [CREATE_HIDDEN_FILE] Arquivo oculto criado: pagefile.sys
+2026-06-03T10:16:18.254611 - [CREATE_FILE] Arquivo criado: arquivo1.txt
+2026-06-03T10:16:18.254699 - [CREATE_FILE] Arquivo criado: arquivo2.txt
+2026-06-03T10:16:18.255880 - [COPY_FILE] arquivo1.txt -> copia_arquivo1.txt
+2026-06-03T10:16:18.256223 - [RENAME_FILE] arquivo2.txt -> arquivo_renomeado.txt
+2026-06-03T10:16:18.256551 - [RENAME_DIR] imagens -> fotos
+2026-06-03T10:16:18.256983 - [LIST_DIR] Listagem visível do diretório root
+2026-06-03T10:16:18.257965 - [DELETE_FILE] Arquivo apagado: copia_arquivo1.txt
+2026-06-03T10:16:18.258355 - [DELETE_DIR] Diretório apagado: fotos
+2026-06-03T10:16:18.258537 - [LIST_DIR] Listagem visível do diretório root

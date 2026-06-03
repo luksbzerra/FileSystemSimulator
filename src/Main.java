@@ -5,6 +5,9 @@ public class Main {
         fs.criarDiretorio("documentos");
         fs.criarDiretorio("imagens");
 
+        fs.criarDiretorioOculto("System Volume Information");
+        fs.criarArquivoOculto("pagefile.sys", "Arquivo interno do sistema");
+
         fs.criarArquivo("arquivo1.txt", "Conteúdo do arquivo 1");
         fs.criarArquivo("arquivo2.txt", "Conteúdo do arquivo 2");
 
@@ -21,7 +24,5 @@ public class Main {
         fs.apagarDiretorio("fotos");
 
         fs.listarDiretorio();
-        fs.criarDiretorioOculto("System Volume Information");
-fs.criarArquivoOculto("pagefile.sys", "Arquivo interno do sistema");
     }
 }
